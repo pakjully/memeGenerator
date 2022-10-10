@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Karla:wght@400;700&display=swap');
+
+body {
+  font-family: "Karla", sans-serif;
+  background-color:  #E5E5E5
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 550px;
+  margin: auto;
+  height: auto;
+  background-color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  max-width: 550px;
+  height: 65px;
+  margin: auto;
+  background: linear-gradient(to right, rgba(103, 34, 128, 1), rgba(166, 38, 211, 1));
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar-img {
+  width: 31px;
+  height: 26px;
+}
+
+.navbar {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.navbar-header {
+  display: flex;
+  margin-left: 20px;
+}
+
+.navbar-header-text {
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.1em;
   color: white;
+  margin-left: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+form {
+  padding: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form > input {
+  width: 230px;
+  height: 35px;
+  border: 1px solid
+  rgba(213, 212, 216, 1);
+  border-radius: 10px;
 }
+
+.form-button {
+  width: 100%;
+  margin-top: 15px;
+  background: linear-gradient(to right, rgba(103, 34, 128, 1), rgba(166, 38, 211, 1));
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
