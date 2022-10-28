@@ -43,14 +43,14 @@ body {
   margin-left: 7px;
 }
 
-form {
+.form {
   padding: 35px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-form > input {
+.form > input {
   width: 230px;
   height: 35px;
   border: 1px solid
@@ -61,6 +61,7 @@ form > input {
 .form-button {
   width: 100%;
   margin-top: 15px;
+  margin-bottom: 50px;
   background: linear-gradient(to right, rgba(103, 34, 128, 1), rgba(166, 38, 211, 1));
   border: none;
   color: white;
@@ -69,5 +70,47 @@ form > input {
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.form-img {
+  width: 100%;
+  height: auto;
+}
+
+.meme {
+  position: relative;
+}
+
+.meme-text {
+  position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
 }
 

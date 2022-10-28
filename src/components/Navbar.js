@@ -1,7 +1,7 @@
 import React from 'react'
 import navImg from  '../Images/Troll Face.png'
 
-export default function  Navbar () {
+export function  Navbar () {
     return (
         <div>
             <nav className="navbar">
